@@ -1,0 +1,45 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, ul, ol, li {
+    margin:0px;
+    padding:0px;
+}
+
+.body{
+    background-color: #ddd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 120vh;
+    padding-top:40px;
+}
+
+.navbar{
+    list-style: none;    
+    padding:10px 15px;  
+    background-color: #ddd;  
+    box-shadow: #bbb 0px 0px 15px 5px;
+}
+
+.navbar.fixed {
+    top:0px;
+    position: fixed;
+    width: 100vw;
+}
+
+.navbar li {
+    display: inline-block;    
+    position: relative;
+}
+
+.navbar li:hover a {
+    background-color: #aaa;
+    color: white;
+}
+
+.navbar li a {
+    padding:10px 15px;
+    text-decoration: none;    
+    color: #222;
+    transition: all 0.4s ease 0s;
+}
+
+.container {
+    padding:10px 15px;
+}

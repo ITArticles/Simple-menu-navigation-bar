@@ -1,0 +1,51 @@
+html, body, div, span, ul, li, ol {
+    margin:0px;
+    padding:0px;
+}
+
+.body{
+    padding:10px 15px;
+    padding-left:60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height:120vh;
+}
+
+.navbar{
+    position: fixed;
+    left:0px;
+    top:0px;
+    list-style: none;
+    height:100vh;
+    background-color: darkmagenta;
+    width:50px;    
+    transition: width 0.4s ease 0s;
+    box-shadow: #333 0px 0px 15px 5px;
+}
+
+.navbar:hover {
+    width: 150px;
+}
+
+
+.navbar li a {
+    padding:10px 15px;
+    color:white;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    opacity: 0.8;
+    border-bottom:1px solid rgba(255, 255, 255, 0.8);
+    transition: all 0.4s ease 0s;
+}
+
+.navbar li a:hover{    
+    opacity: 1;
+    padding-left:20px;
+    border-bottom-color:rgbs(255, 255, 255, 1);
+}
+
+.container {
+
+}
